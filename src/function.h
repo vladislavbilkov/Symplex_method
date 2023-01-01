@@ -2,7 +2,7 @@
 
 #include <fstream>
 
-void get_size_table(int & iline, int & jline, std::ifstream &file);
+void get_size_table(int & rows, int & column, std::ifstream &file);
 
 void set_table(const int rows, std::ifstream &file, double **table);
 
